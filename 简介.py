@@ -8,13 +8,3 @@ st.markdown("""
 - #### 有高并发需求,每日用量达20刀的用户请直接私聊[群主](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CjK9AAgGMV3ZjOiKkYfzlaYqvA6RoWuu&authKey=ual5BYkxY%2Fk0H%2FgbTBinUD%2BUklGZKpYWx4iTr6AhkG1uKhYReVtsXOUbHgGD6U%2F8&noverify=0&group_code=148190284)开启高速通道!
 
 """)
-
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            div.embeddedAppMetaInfoBar_container__DxxL1 {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
