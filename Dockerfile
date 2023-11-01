@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 你的程序需要的端口
-EXPOSE 8000
+EXPOSE 8501
 
 #这是你的程序入口
 CMD [ "python", "简介.py" ]
