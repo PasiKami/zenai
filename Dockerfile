@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 8501
 
 #这是你的程序入口
-CMD [ "python", "run", "简介.py" ]
+CMD [ "streamlit", "run", "简介.py" ]
